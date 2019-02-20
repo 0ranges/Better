@@ -4,7 +4,7 @@
 
 ### 一、java基础面试知识点
 
-* java中==和equals和hashCode的区别
+* [java中==和equals和hashCode的区别](#Q001)
 * int、char、long各占多少字节数
 * int与integer的区别
 * 探探对java多态的理解
@@ -131,4 +131,11 @@
 * 多线程断点续传原理
 * 断点续传的实现
 
-* java中==和equals和hashCode的区别
+<span id="Q001"> java中==和equals和hashCode的区别 </span>
+>   * ==
+>> java中的数据类型，可分为两类：    
+>> * 基本数据类型，也称原始数据类型    
+byte,short,char,int,long,float,double,boolean   
+他们之间的比较，应用双等号（==）,比较的是他们的值。   
+>> * 引用类型(类、接口、数组)   
+当他们用（==）进行比较的时候，比较的是他们在内存中的存放地址，所以，除非是同一个new出来的对象，他们的比较后的结果为true，否则比较后结果为false。
