@@ -1,20 +1,26 @@
-# java面试题汇总
+<div align="center">
+    <h1>
+        java面试题汇总
+    </h1>
+</div>
+
+<!-- GFM-TOC -->
 
 熟练掌握java是很关键的，大公司不仅仅要求你会使用几个api，更多的是要你熟悉源码实现原理，甚至要你知道有哪些不足，怎么改进，还有一些java有关的一些算法，设计模式等等。
 
 ### 一、java基础面试知识点
 
-* [java中==和equals和hashCode的区别](#Q001)
-* int、char、long各占多少字节数
-* int与integer的区别
-* 探探对java多态的理解
-* String、StringBuffer、StringBuilder区别
-* 什么是内部类？内部类的作用
-* 抽象类和接口区别
-* 抽象类的意义
-* 抽象类与接口的应用场景
-* 抽象类是否可以没有方法和属性？
-* 接口的意义
+* [java中==和equals和hashCode的区别](https://www.cnblogs.com/kexianting/p/8508207.html)
+* [int、char、long各占多少字节数](https://blog.csdn.net/qq_31615049/article/details/80574551)
+* [int与integer的区别](https://www.cnblogs.com/guodongdidi/p/6953217.html)
+* [谈谈对java多态的理解](https://www.cnblogs.com/liujinhong/p/6003144.html)
+* [String、StringBuffer、StringBuilder区别](http://www.cnblogs.com/A_ming/archive/2010/04/13/1711395.html)
+* [什么是内部类？内部类的作用](https://www.cnblogs.com/dolphin0520/p/3811445.html)
+* [抽象类和接口区别](http://www.importnew.com/12399.html)
+* [抽象类的意义](https://www.jianshu.com/p/4ed470d0cf38)
+* [抽象类与接口的应用场景](https://blog.csdn.net/hanxueyu666/article/details/75712917)
+* [抽象类是否可以没有方法和属性？](https://www.jianshu.com/p/214143d7871f)
+* [接口的意义](https://baijiahao.baidu.com/s?id=1595511474536870490&wfr=spider&for=pc)
 * 泛型中extends和super的区别
 * 父类的静态方法能否被子类重写
 * 进程和线程的区别
@@ -130,12 +136,3 @@
 * 如何保证多线程读写文件的安全？
 * 多线程断点续传原理
 * 断点续传的实现
-
-<span id="Q001"> java中==和equals和hashCode的区别 </span>
->   * ==
->> java中的数据类型，可分为两类：    
->> * 基本数据类型，也称原始数据类型    
-byte,short,char,int,long,float,double,boolean   
-他们之间的比较，应用双等号（==）,比较的是他们的值。   
->> * 引用类型(类、接口、数组)   
-当他们用（==）进行比较的时候，比较的是他们在内存中的存放地址，所以，除非是同一个new出来的对象，他们的比较后的结果为true，否则比较后结果为false。
