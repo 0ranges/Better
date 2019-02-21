@@ -21,16 +21,15 @@
 * [抽象类与接口的应用场景](https://blog.csdn.net/hanxueyu666/article/details/75712917)
 * [抽象类是否可以没有方法和属性？](https://www.jianshu.com/p/214143d7871f)
 * [接口的意义](https://baijiahao.baidu.com/s?id=1595511474536870490&wfr=spider&for=pc)
-* 泛型中extends和super的区别
-* 父类的静态方法能否被子类重写
-* 进程和线程的区别
+* [泛型中extends和super的区别](https://blog.csdn.net/qdh186/article/details/79748548)
+* [父类的静态方法能否被子类重写](https://blog.csdn.net/qq_38584967/article/details/78504131)
+* [进程和线程的区别](https://www.cnblogs.com/zhuzhu2016/p/5804875.html)
 * final，finally，finalize的区别
 * 序列化的方式
 * Serializable 和Parcelable 的区别
 * 静态属性和静态方法是否可以被继承？是否可以被重写？以及原因？
 * 静态内部类的设计意图
 * 成员内部类、静态内部类、局部内部类和匿名内部类的理解，以及项目中的应用
-* 谈谈对kotlin的理解
 * 闭包和局部内部类的区别
 * string 转换成 integer的方式及原理
 
