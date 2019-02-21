@@ -26,8 +26,8 @@
 * [进程和线程的区别](https://www.cnblogs.com/zhuzhu2016/p/5804875.html)
 * final，finally，finalize的区别
 * 序列化的方式
-* Serializable 和Parcelable 的区别
-* 静态属性和静态方法是否可以被继承？是否可以被重写？以及原因？
+* [Serializable 和Parcelable 的区别](https://blog.csdn.net/hacker_crazy/article/details/80840868)
+* [静态属性和静态方法是否可以被继承？是否可以被重写？以及原因？](https://blog.csdn.net/qdh186/article/details/79807057)
 * 静态内部类的设计意图
 * 成员内部类、静态内部类、局部内部类和匿名内部类的理解，以及项目中的应用
 * 闭包和局部内部类的区别
@@ -36,10 +36,10 @@
 
 ### 二、java深入源码级的面试题（有难度）
 
-* 哪些情况下的对象会被垃圾回收机制处理掉？
-* 讲一下常见编码方式？
-* utf-8编码中的中文占几个字节；int型几个字节？
-* 静态代理和动态代理的区别，什么场景使用？
+* [哪些情况下的对象会被垃圾回收机制处理掉？](https://cloud.tencent.com/developer/article/1332790)
+* [讲一下常见编码方式？](https://www.cnblogs.com/mlan/p/7823375.html)
+* [utf-8编码中的中文占几个字节；int型几个字节？](https://blog.csdn.net/bluetjs/article/details/52936943)
+* [静态代理和动态代理的区别，什么场景使用？](https://blog.csdn.net/ikownyou/article/details/53081426)
 * Java的异常体系
 * 谈谈你对解析与分派的认识。
 * 修改对象A的equals方法的签名，那么使用HashMap存放这个对象实例的时候，会调用哪个equals方法？
