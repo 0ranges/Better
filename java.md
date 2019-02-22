@@ -56,15 +56,15 @@
 
 ### 三、数据结构
 
-* 常用数据结构简介
-* 并发集合了解哪些？
-* 列举java的集合以及集合之间的继承关系
-* 集合类以及集合框架
+* [常用数据结构简介](https://blog.csdn.net/bigwatermelon11/article/details/76914386)
+* [并发集合了解哪些？](https://blog.csdn.net/u010942020/article/details/73610121)
+* [列举java的集合以及集合之间的继承关系](https://www.jianshu.com/p/e203b23acf45)
+* [集合类以及集合框架](https://blog.csdn.net/ccj_ok/article/details/77986307)
 * 容器类介绍以及之间的区别（容器类估计很多人没听这个词，Java容器主要可以划分为4个部分：List列表、Set集合、Map映射、工具类（Iterator迭代器、Enumeration枚举类、Arrays和Collections），具体的可以看看这篇博文 [Java容器类](http://alexyyek.github.io/2015/04/06/Collection/)）
-* List,Set,Map的区别
-* List和Map的实现方式以及存储方式
-* HashMap的实现原理
-* HashMap数据结构？
+* [List,Set,Map的区别](http://www.cnblogs.com/IvesHe/p/6108933.html)
+* [List和Map的实现方式以及存储方式](https://www.cnblogs.com/nucdy/p/5867210.html)
+* [HashMap的实现原理](https://www.cnblogs.com/chengxiao/p/6059914.html)
+* [HashMap数据结构？](https://www.cnblogs.com/rogerluo1986/p/5851300.html)
 * HashMap源码理解
 * HashMap如何put数据（从HashMap源码角度讲解）？
 * HashMap怎么手写实现？
